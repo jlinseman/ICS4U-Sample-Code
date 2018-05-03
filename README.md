@@ -2,8 +2,8 @@
 
 Hello Classes,
 
-I am goign to start to try to leave my sample code that I complete inside this reporitory.  
-You are free to take and use to your needs.
+I am going to start to try to leave my sample code that I complete inside this reporitory.  during class 
+within this repository.
 
 Regards,
 Mr. Linseman
