@@ -70,14 +70,15 @@ class sortMethods
     }
   }
   
-  public static void bubbleSort (String[] list)
+ public static void bubbleSort (String[] list)
   {
     boolean sorted = false;
-    for (int top = list.length - 1; top > 0; top--)
-    {
+    int count = 1;
+    for (int top = list.length - 1; top > 0 && !sorted; top--)
+    {      
       sorted = true;
-      for (int i = 0; i < top; i++)
-      {
+      for (int i = 0; i < top; i++){
+            
         if (list[i].compareTo(list[i+1]) < 0)
         {
           sorted = false;
@@ -86,11 +87,8 @@ class sortMethods
           list[i+1] = temp;
         }
       }
+      
     }
-    
-    for(String name : list)
-      System.out.println(name);
-    
   }
   
   
