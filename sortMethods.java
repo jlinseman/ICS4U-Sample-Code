@@ -4,6 +4,15 @@
 class sortMethods
 {
   
+  
+  //Method to test out what is lexicographically first vs second
+  // A positive output indicates that values are in the correct order
+  public static void testCompare(String str1, String str2){
+     
+    int var1 = str1.compareTo( str2 );
+    System.out.println("str1 & str2 comparison: "+var1); //-16     
+   }
+  
   public static int binSearch ( double[] list, double item)
   {
     int bottom = 0; // lower bound of searching
